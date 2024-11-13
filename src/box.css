@@ -1,0 +1,241 @@
+<!DOCTYPE
+  html
+  > <html
+  > <head
+  > <meta
+  charset="utf-8"
+  /
+  > <link
+  rel="stylesheet"
+  href="globals.css"
+  /
+  > <link
+  rel="stylesheet"
+  href="styleguide.css"
+  /
+  > <link
+  rel="stylesheet"
+  href="style.css"
+  /
+  > </head
+  > <body
+  > <div
+  class="box"
+  > <div
+  class="view"
+  > <div
+  class="div"
+  > <div
+  class="view-2"
+  > <div
+  class="text-wrapper"
+  > Loren
+  Ipsum</div
+  > <div
+  class="text-wrapper-2"
+  > Loren
+  Ipsum</div
+  > <div
+  class="text-wrapper-2"
+  > Loren
+  Ipsum</div
+  > </div
+  > <div
+  class="view-3"
+  > <div
+  class="frame"
+  > <div
+  class="loren-ipsum"
+  > LOREN
+  IPSUM</div
+  > <img
+  class="fluent-go"
+  src="img/fluent-mdl2-go.svg"
+  /
+  > </div
+  > <img
+  class="line"
+  src="img/line-1.svg"
+  /
+  > </div
+  > </div
+  > <div
+  class="frame-2"
+  > <div
+  class="text-wrapper-3"
+  > Epc<br
+  /
+  > Hunters</div
+  > <div
+  class="frame-3"
+  > <div
+  class="text-wrapper-4"
+  > Loren
+  Ipsum</div
+  > <img
+  class="charm-cross"
+  src="img/charm-cross.svg"
+  /
+  > </div
+  > </div
+  > </div
+  > </div
+  > </body
+  > </html
+  > .box {
+  position: relative;
+  width: 320px;
+  height: 252px;
+}
+
+.box .view {
+  position: fixed;
+  width: 320px;
+  height: 252px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.box .div {
+  display: flex;
+  flex-direction: column;
+  width: 162px;
+  align-items: center;
+  gap: 30px;
+  position: absolute;
+  top: 90px;
+  left: 79px;
+}
+
+.box .view-2 {
+  display: flex;
+  flex-direction: column;
+  width: 86px;
+  align-items: flex-start;
+  gap: 15px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.box .text-wrapper {
+  align-self: stretch;
+  margin-top: -1px;
+  font-size: 14px;
+  text-align: center;
+  line-height: normal;
+  position: relative;
+  font-family: "Actay-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+}
+
+.box .text-wrapper-2 {
+  align-self: stretch;
+  font-size: 14px;
+  text-align: center;
+  line-height: normal;
+  position: relative;
+  font-family: "Actay-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+}
+
+.box .view-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.box .frame {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.box .loren-ipsum {
+  width: fit-content;
+  font-size: 14px;
+  line-height: 6.4px;
+  white-space: nowrap;
+  position: relative;
+  font-family: "Actay-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+}
+
+.box .fluent-go {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+
+.box .line {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 1px;
+  object-fit: cover;
+}
+
+.box .frame-2 {
+  display: flex;
+  width: 290px;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 30px;
+  left: 15px;
+}
+
+.box .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Actay Wide-Bold", Helvetica;
+  font-weight: 700;
+  color: #f2f2ef;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.box .frame-3 {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.box .text-wrapper-4 {
+  width: fit-content;
+  font-size: 12px;
+  text-align: center;
+  line-height: 5.5px;
+  white-space: nowrap;
+  position: relative;
+  font-family: "Actay-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+}
+
+.box .charm-cross {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}

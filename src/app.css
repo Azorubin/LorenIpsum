@@ -1,0 +1,721 @@
+.screen.desktop {
+  display: block;
+}
+
+.screen.mobile {
+  display: none;
+}
+
+.screen {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.screen .overlap-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1280px;
+  height: 832px;
+}
+
+.screen .overlap {
+  position: relative;
+  width: 1399px;
+  height: 1748px;
+  top: -399px;
+  left: -87px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(70.29, 70.29, 70.29, 0.22) 27.57%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.screen .img {
+  position: absolute;
+  width: 1280px;
+  height: 832px;
+  top: 399px;
+  left: 87px;
+}
+
+.screen .header {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 326px;
+  position: absolute;
+  top: 439px;
+  left: 157px;
+  background-color: transparent;
+}
+
+.screen .frame {
+  display: inline-flex;
+  justify-content: center;
+  gap: 52px;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.screen .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Actay Wide-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 14.7px;
+}
+
+.screen .view {
+  display: inline-flex;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.screen .div {
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+  font-family: "Actay-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 9.2px;
+  white-space: nowrap;
+}
+
+.screen .view-2 {
+  display: flex;
+  flex-direction: column;
+  width: 173px;
+  align-items: flex-start;
+  gap: 5px;
+  position: relative;
+}
+
+.screen .frame-2 {
+  display: flex;
+  gap: 20px;
+  align-self: stretch;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.screen .loren-ipsum {
+  position: relative;
+  width: fit-content;
+  font-family: "Actay-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 9.2px;
+  white-space: nowrap;
+}
+
+.screen .fluent-go {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+
+.screen .line {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 1px;
+  object-fit: cover;
+}
+
+.screen .h {
+  position: absolute;
+  top: 523px;
+  left: 420px;
+  font-family: "Actay Wide-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 90px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .dotted-line {
+  position: absolute;
+  width: 212px;
+  height: 231px;
+  top: 778px;
+  left: 178px;
+}
+
+.screen .dotted-line-2 {
+  position: absolute;
+  width: 210px;
+  height: 233px;
+  top: 880px;
+  left: 615px;
+}
+
+.screen .dotted-line-3 {
+  position: absolute;
+  width: 309px;
+  height: 111px;
+  top: 748px;
+  left: 738px;
+}
+
+.screen .dotted-line-4 {
+  position: absolute;
+  width: 259px;
+  height: 185px;
+  top: 799px;
+  left: 1040px;
+}
+
+.screen .dotted-line-5 {
+  position: absolute;
+  width: 193px;
+  height: 170px;
+  top: 1006px;
+  left: 412px;
+}
+
+.screen .element {
+  position: absolute;
+  width: 303px;
+  height: 89px;
+  top: 686px;
+  left: 157px;
+}
+
+.screen .overlap-group {
+  position: relative;
+  width: 326px;
+  height: 119px;
+  top: -11px;
+  left: -15px;
+}
+
+.screen .group {
+  position: absolute;
+  width: 316px;
+  height: 109px;
+  top: 10px;
+  left: 0;
+}
+
+.screen .ellipse {
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  top: 35px;
+  left: 30px;
+  background-color: #5e7600;
+  border-radius: 25.5px;
+  border: 1px solid;
+  border-color: #ffffff;
+}
+
+.screen .element-2 {
+  position: absolute;
+  width: 21px;
+  height: 42px;
+  top: 48px;
+  left: 43px;
+}
+
+.screen .p {
+  position: absolute;
+  width: 195px;
+  top: 43px;
+  left: 91px;
+  font-family: "Actay-Regular", Helvetica;
+  font-weight: 400;
+  color: #f5ffd1;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+}
+
+.screen .vector {
+  position: absolute;
+  width: 43px;
+  height: 60px;
+  top: -15px;
+  left: 300px;
+}
+
+.screen .overlap-group-wrapper {
+  position: absolute;
+  width: 303px;
+  height: 89px;
+  top: 932px;
+  left: 234px;
+}
+
+.screen .element-3 {
+  position: absolute;
+  width: 29px;
+  height: 42px;
+  top: 48px;
+  left: 41px;
+}
+
+.screen .div-wrapper {
+  position: absolute;
+  width: 303px;
+  height: 89px;
+  top: 799px;
+  left: 512px;
+}
+
+.screen .element-4 {
+  position: absolute;
+  width: 29px;
+  height: 41px;
+  top: 48px;
+  left: 41px;
+}
+
+.screen .element-5 {
+  position: absolute;
+  width: 303px;
+  height: 89px;
+  top: 1034px;
+  left: 584px;
+}
+
+.screen .element-6 {
+  position: absolute;
+  width: 303px;
+  height: 89px;
+  top: 883px;
+  left: 857px;
+}
+
+.screen .element-7 {
+  position: absolute;
+  width: 17px;
+  height: 25px;
+  top: 48px;
+  left: 47px;
+}
+
+.screen .element-8 {
+  position: absolute;
+  width: 303px;
+  height: 89px;
+  top: 727px;
+  left: 996px;
+}
+
+@media (max-width: 768px) {
+  .screen.desktop {
+    display: none;
+  }
+
+  .screen.mobile {
+    display: block;
+  }
+
+  .screen {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .screen .overlap-wrapper {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 320px;
+    height: 568px;
+  }
+
+  .screen .overlap {
+    position: relative;
+    width: 558px;
+    height: 696px;
+    top: -7px;
+    left: -185px;
+  }
+
+  .screen .img {
+    position: absolute;
+    width: 320px;
+    height: 568px;
+    top: 7px;
+    left: 185px;
+  }
+
+  .screen .div {
+    position: absolute;
+    width: 558px;
+    height: 696px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(70.29, 70.29, 70.29, 0.22) 16.13%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+
+  .screen .h {
+    position: absolute;
+    top: 106px;
+    left: 225px;
+    font-family: "Actay Wide-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .screen .view {
+    display: flex;
+    width: 290px;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 37px;
+    left: 200px;
+  }
+
+  .screen .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Actay Wide-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 20px;
+  }
+
+  .screen .stash-burger-classic {
+    position: relative;
+    width: 40px;
+    height: 40px;
+  }
+
+  .screen .overlap-group-wrapper {
+    position: absolute;
+    width: 310px;
+    height: 232px;
+    top: 166px;
+    left: 200px;
+  }
+
+  .screen .overlap-group {
+    position: relative;
+    width: 305px;
+    height: 243px;
+    top: -11px;
+  }
+
+  .screen .image {
+    position: absolute;
+    width: 290px;
+    height: 217px;
+    top: 26px;
+    margin-left: 7px;
+    background-color: #ffffff4c;
+    border-radius: 35px 0px 35px 0px;
+    border: 3px solid;
+    border-color: #ffffff;
+    box-shadow: var(--12);
+  }
+
+  .screen .view-2 {
+    display: inline-flex;
+    flex-direction: column;
+    height: 129px;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 70px;
+    left: 18px;
+  }
+
+  .screen .group {
+    position: relative;
+    left: 40px;
+    width: 74px;
+    height: 73px;
+    background-color: #5e7600;
+    border-radius: 37px / 36.5px;
+    border: 1px solid;
+    border-color: #ffffff;
+  }
+
+  .screen .element {
+    position: absolute;
+    width: 25px;
+    height: 53px;
+    top: 17px;
+    left: 21px;
+  }
+
+  .screen .p {
+    top: 100px;
+    left: 40px;
+    font-family: "Actay-Regular", Helvetica;
+    font-weight: 400;
+    color: #f5ffd1;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 18.2px;
+  }
+
+  .screen .vector {
+    position: absolute;
+    width: 32px;
+    height: 67px;
+    top: 0;
+    left: 285px;
+  }
+
+  .screen .slyder {
+    display: flex;
+    width: 290px;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 413px;
+    left: 200px;
+  }
+
+  .screen .frame {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .screen .solar-arrow-up {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+
+  .screen .text-wrapper-2 {
+    text-align: center;
+    position: relative;
+    width: fit-content;
+    font-family: "Actay-Regular", Helvetica;
+    font-weight: 400;
+    color: #f5ffd1;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 18.2px;
+    white-space: nowrap;
+  }
+
+  .screen .frame-2 {
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .screen .text-wrapper-3 {
+    text-align: right;
+    position: relative;
+    width: fit-content;
+    font-family: "Actay-Regular", Helvetica;
+    font-weight: 400;
+    color: #f5ffd1;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 18.2px;
+    white-space: nowrap;
+  }
+
+  .box {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+  }
+
+  .box.active {
+    display: block;
+  }
+
+  .box .view {
+    position: fixed;
+    width: 320px;
+    height: 252px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+  }
+
+  .box .div {
+    display: flex;
+    flex-direction: column;
+    width: 162px;
+    align-items: center;
+    gap: 30px;
+    position: absolute;
+    top: 90px;
+    left: 79px;
+  }
+
+  .box .view-2 {
+    display: flex;
+    flex-direction: column;
+    width: 86px;
+    align-items: flex-start;
+    gap: 15px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .box .text-wrapper {
+    align-self: stretch;
+    margin-top: -1px;
+    font-size: 14px;
+    text-align: center;
+    line-height: normal;
+    position: relative;
+    font-family: "Actay-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0;
+  }
+
+  .box .text-wrapper-2 {
+    align-self: stretch;
+    font-size: 14px;
+    text-align: center;
+    line-height: normal;
+    position: relative;
+    font-family: "Actay-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0;
+  }
+
+  .box .view-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .box .frame {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .box .loren-ipsum {
+    width: fit-content;
+    font-size: 14px;
+    line-height: 6.4px;
+    white-space: nowrap;
+    position: relative;
+    font-family: "Actay-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0;
+  }
+
+  .box .fluent-go {
+    position: relative;
+    width: 16px;
+    height: 16px;
+  }
+
+  .box .line {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 1px;
+    object-fit: cover;
+  }
+
+  .box .frame-2 {
+    display: flex;
+    width: 290px;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+  }
+
+  .box .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Actay Wide-Bold", Helvetica;
+    font-weight: 700;
+    color: #f2f2ef;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 20px;
+  }
+
+  .box .frame-3 {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .box .text-wrapper-4 {
+    width: fit-content;
+    font-size: 12px;
+    text-align: center;
+    line-height: 5.5px;
+    white-space: nowrap;
+    position: relative;
+    font-family: "Actay-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0;
+  }
+
+  .box .charm-cross {
+    position: relative;
+    width: 40px;
+    height: 40px;
+  }
+}
